@@ -36,6 +36,9 @@ class MainActivity : ComponentActivity() {
                     composable("register") {
                         RegisterScreen(myNavController)
                     }
+                    composable("homescreen") {
+                        HomeScreen()
+                    }
                 }
             }
         }
